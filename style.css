@@ -1,0 +1,88 @@
+body {box-sizing: border-box;} 
+	*, *:before, *:after {box-sizing: inherit;}
+	body {
+		background-color: #00a4ec;
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+input, textarea {
+	border:2px solid white;
+	outline-color: silver;
+	padding-left: 5px;
+}
+
+::placeholder {
+	color: silver;
+	font-size: 15px;
+	padding-left: 5px;
+}
+
+input {
+	background-color: #00a4ec;
+	height:40px;
+	color:white;
+	font-size: 15px;
+}
+
+div {
+	color: white;
+	display: flex;
+}
+
+#column1 {
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+}
+
+#column2 {
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+}
+
+#column3 {
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+}
+
+#firstname {
+	width:500px;
+}
+
+#phone {
+	width:500px;
+}
+
+#drink {
+	width:500px;
+}
+
+#biography {
+	height:300px;
+}
+
+#affiliations {
+	height: 300px;
+}
+
+#comments {
+	height: 300px;
+}
+
+select {
+	background-color: transparent;
+	border-color:white;
+	height: 40px;
+	color: white;
+	outline-color: silver;
+	font-size: 15px;
+}
+
+
+
+
+
+
